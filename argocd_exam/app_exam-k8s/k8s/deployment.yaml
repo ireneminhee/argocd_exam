@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: echo-hostname
-          image: ireneminhee/echo-hostname:v1.0
+          image: ireneminhee/echo-hostname:580222a3bd41f376fe7b834dc9abea0f935f5b43
           ports:
             - containerPort: 5000
