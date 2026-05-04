@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: echo-hostname
-          image: your-dockerhub-id/echo-hostname:v1.0
+          image: ireneminhee/echo-hostname:v1.0
           ports:
             - containerPort: 5000
