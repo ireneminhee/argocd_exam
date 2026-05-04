@@ -27,7 +27,7 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build -t $IMAGE_NAME:${{ github.sha }} echo-hostname/.
+        docker build -t $IMAGE_NAME:${{ github.sha }} argocd_exam/echo-hostname/.
 
     - name: Push Docker image
       run: |
