@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: echo-hostname
+  namespace: default
+spec:
+  selector:
+    app: echo-hostname
+  ports:
+    - port: 80
+      targetPort: 5000
+  type: ClusterIP
